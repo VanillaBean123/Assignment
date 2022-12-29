@@ -1,0 +1,59 @@
+/******NAVIGATION*********/
+
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    margin: 0em;
+}
+
+.content {
+    color: #223c46;
+    cursor: pointer;
+    float: left;
+    font-size: 18px;
+    outline: none;
+    width: 100%;
+}
+
+.nav-img-txt {
+    background-image:url(assets/neola.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 24em;
+    position:relative;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+#head-txt{
+    padding-top: 5.25em;
+
+}
+
+.container{
+    position: relative;
+    margin: 0 auto;
+}
+.topnav{
+    display: flex;
+    border-bottom-style: solid;
+    border-color: #223c46;
+    border-width: 1.5px;
+}
+
+.topnav a{
+        margin-left: 8%;
+        margin-right: 10px;
+        font-size: 20px;
+        position: relative;
+        top: 5px;
+        height: 40px;
+        width: 30em;
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+}
