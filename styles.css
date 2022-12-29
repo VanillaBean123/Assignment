@@ -2,12 +2,16 @@
 
 
 body {
-    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
+    margin: 0;
     margin: 0em;
 }
 
+.container{
+    position: relative;
+    margin: 0 auto;
+}
 .content {
     color: #223c46;
     cursor: pointer;
@@ -17,43 +21,46 @@ body {
     width: 100%;
 }
 
-.nav-img-txt {
-    background-image:url(assets/neola.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 24em;
-    position:relative;
-    text-align: center;
-    color: white;
-    text-transform: uppercase;
-}
 
 #head-txt{
     padding-top: 5.25em;
-
 }
 
-.container{
-    position: relative;
-    margin: 0 auto;
-}
 .topnav{
     display: flex;
+}
+
+.topnav a {
+    color: black;
+    font-size: 20px;
+    height: 40px;
+    letter-spacing: 2px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 5px;
+    width: 30em;
+    text-align: center;
+    /*border was added here and not in topnav because the hover was overlapping the line making it uneven*/
     border-bottom-style: solid;
     border-color: #223c46;
     border-width: 1.5px;
 }
 
-.topnav a{
-        margin-left: 8%;
-        margin-right: 10px;
-        font-size: 20px;
-        position: relative;
-        top: 5px;
-        height: 40px;
-        width: 30em;
-        text-decoration: none;
-        color: black;
-        text-transform: uppercase;
-        letter-spacing: 2px;
+.topnav :hover{
+    background-color: #f1fc94;
+    color: black;
 }
+
+.nav-img-txt {
+    background-image:url(assets/neola.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 24em;
+    position:relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
