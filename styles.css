@@ -8,6 +8,10 @@ body {
     margin: 0em;
 }
 
+.bottom-text{
+    padding: 2px;
+}
+
 .container{
     position: relative;
     margin: 0 auto;
@@ -21,9 +25,49 @@ body {
     width: 100%;
 }
 
+.col-1{
+    float: center;
+    width: 25%;
+    padding: 20px;
+    height: 10em;
+}
+
 
 #head-txt{
     padding-top: 5.25em;
+}
+
+/* for some codes, colours were added to pop out the exact size of the containers to help  me understand. */
+    
+.image {
+    float: center;
+    padding: 20px;
+    background-color: blue;
+}
+
+.item {
+    background-color: cornflowerblue;
+    height: fit-content;
+    width: fit-content;
+    float:center;
+}
+
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+.row > div {
+    background-color: bisque;
+    text-align: center;
+    padding: 21px 23px;
+    font-size: 15px;
+    width: fit-content;
+    height: fit-content;
 }
 
 .topnav{
@@ -62,5 +106,4 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
-
 
