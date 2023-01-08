@@ -107,3 +107,34 @@ body {
     text-transform: uppercase;
 }
 
+.MidBox{
+    border: 1px solid black;
+    position:relative;
+    width:800px;
+    height:200px;
+    display: flex;
+}
+
+.MidNEW, .MidSubText{
+    font-weight:bold;
+}
+.MidNEW{
+    font-size: 50px;
+}
+
+.MidText{
+    text-align:center;
+}
+.MidSubText{
+    font-size:23px;
+}
+.MidImage{
+    width:40%;
+    height:100%;
+}
+
+.NavbarImage{
+    width:100%;
+    height:35%;
+}
+
