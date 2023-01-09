@@ -319,6 +319,15 @@ body {
     float: right;
     display:flex;
 }
+.AppButtons2{
+    width:13%;
+    height: 61px;
+    position:relative;
+    bottom: 110px;
+    float: right;
+    display:flex;
+}
+
 
 .AccImg{
     width:75%;
@@ -417,6 +426,142 @@ body {
     margin-bottom:5px;
 }
 
+.up-arrow{
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+        
+    border-bottom: 20px solid green;
+
+    margin: 2rem;
+}
+
+.down-arrow{
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+        
+    border-top: 20px solid green;
+
+    margin: 2rem;
+
+}
+
+.SellContent{
+    height:100%;
+    width:100%;
+}
 
 
+.Content1{
+    display:flex;
+    position:relative;
+    margin:0 auto;
+    top:-11px;
+    width:89%;
+    height:75%;
+}
 
+.SellImage{
+    width:50%;
+}
+
+.Info{
+    text-align:center;
+    margin:0 auto;
+    width:49%;
+    height:100%;
+}
+
+.SellingInfo{
+    border-bottom: 1px solid black;
+    height: 96px;
+    color: rgb(50,50,50);
+    font-weight:bold;
+    width:80%;
+    margin: 0 auto;
+    font-size:25px;
+}
+
+.ImgName{
+    margin-bottom:9px;
+}
+
+.ImgPrice{
+    font-size:20px;
+}
+
+.OtherInfo{
+    height:200px;
+    margin-top:10%;
+    color:rgb(50,50,50);
+    font-weight:bold;
+    font-size:20px;
+}
+
+.Description, .ImgSize{
+    margin-bottom:5%;
+}
+
+.DropDowns{
+    display:flex;
+    justify-content:center;
+}
+.SizeParent{
+    border:2px solid black;
+    width:35%;
+}
+.SizeDrop{
+    border:none;
+    appearance:none;
+    width:181px;
+    height:100%;
+    display:inline-block;
+    text-align:center;
+    float:right;
+    position:relative;
+}
+
+.QuantityParent{
+    border:2px solid black;
+    width:35%;
+    text-align:right;
+    margin-left:36px;
+}
+
+.QuanDrop{
+    border:none;
+    appearance:none;
+    width:128px;
+    height:100%;
+    display:inline-block;
+    text-align:center;
+    position:relative;
+    float:right;
+}
+
+.DropDownName{
+    float:left;
+}
+
+.CartButton{
+    width:77%;
+    height:52px;
+    background-color: rgb(40,40,40);
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.Suggestions{
+    margin-top:50px;
+}
+
+.SuggTitle{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    color:rgb(50,50,50);
+}
