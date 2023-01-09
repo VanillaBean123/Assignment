@@ -298,6 +298,7 @@ body {
     position:relative;
     left:30px;
     margin-top:5px;
+    margin-bottom:15px;
 }
 .toprow3 > img{
     width:10%;
@@ -370,10 +371,52 @@ body {
     position:relative;
     margin-right:auto;
     margin-left:auto;
+    margin-top:auto;
+    margin-bottom:auto;
     font-weight:bold;
     font-size:20px;
     color:rgb(100,100,100);
 }
+
+.Subscwibe{
+    position:relative;
+    width:70%;
+    text-align:center;
+    top:60px;
+    margin: 0 auto;
+}
+
+.Subscwibe > h2{
+    font-size:50px;
+}
+
+.Subscwibe > h5{
+    font-size:27px;
+}
+.Subscwibe > textarea{
+    font-size:20px;
+    width:62%;
+    height:200px;
+    margin-top:30px;
+}
+
+.FormRow1 > input{
+    height:55px;
+    width:30.2%;
+    font-size:20px;
+}
+
+.Subscwibe > a > button{
+    position:relative;
+    background-color:rgb(50,50,50);
+    color:white;
+    font-weight:bold;
+    font-size:40px;
+    width:40%;
+    height:70px;
+    margin-bottom:5px;
+}
+
 
 
 
