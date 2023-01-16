@@ -24,7 +24,6 @@ body {
 .content {
     color: #223c46;
     cursor: pointer;
-    float: left;
     font-size: 18px;
     outline: none;
     width: 100%;
@@ -315,7 +314,7 @@ body {
     width:13%;
     height: 61px;
     position:relative;
-    bottom: 142px;
+    bottom: 186px;
     float: right;
     display:flex;
 }
@@ -520,8 +519,7 @@ body {
     height:100%;
     display:inline-block;
     text-align:center;
-    float:right;
-    position:relative;
+    float: right;
 }
 
 .QuantityParent{
@@ -538,8 +536,7 @@ body {
     height:100%;
     display:inline-block;
     text-align:center;
-    position:relative;
-    float:right;
+    float: right;
 }
 
 .DropDownName{
@@ -564,4 +561,30 @@ body {
     font-size:30px;
     font-weight:bold;
     color:rgb(50,50,50);
+}
+
+.ImageTex{
+    text-align:center;
+    position:relative;
+    bottom:280px;
+    font-weight:bold;
+    font-size:31px;
+    color: black;
+}
+
+.ImageTex2{
+    text-align:center;
+    position:relative;
+    font-weight:bold;
+    font-size:31px;
+    color: black;
+    top:30px;
+}
+.ImageTex3{
+    text-align:center;
+    position:relative;
+    font-weight:bold;
+    font-size:31px;
+    color: black;
+    bottom:306px;
 }
