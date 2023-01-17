@@ -30,7 +30,6 @@ body {
 }
 
 .col-1{
-    float: center;
     width: 25%;
     padding: 20px;
     height: 10em;
@@ -45,14 +44,12 @@ body {
 /* for some codes, colours were added to pop out the exact size of the containers to help  me understand. */
     
 .image {
-    float: center;
     padding: 20px;
 }
 
 .item {
     height: fit-content;
     width: fit-content;
-    float:center;
 }
 
 
